@@ -1,0 +1,204 @@
+* {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+.cabecalho > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem; 
+}
+
+
+.principal {
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: #f0f0f0; 
+    padding: 20px;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.modulo {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 7px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222; 
+}
+
+.modulo > ul > li:hover {
+    background-color: #EEE; 
+}
+
+.modulo {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.modulo h3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.botao-voltar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-voltar button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-voltar button:hover {
+    background-color: #0056b3;
+}
+
+.filtro-setor {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro-setor label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.filtro-setor select,
+.filtro-setor button {
+    margin-top: 5px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-group button:hover {
+    background-color: #0056b3;
+}
+
+
+select {
+    width: 25%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button select{
+    width: 10%;
+    background-color: #007bff;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #fff;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    
+}

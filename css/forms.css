@@ -1,0 +1,159 @@
+
+form {
+background-color: #fffafa;
+padding: 15px;
+border-radius: 10px;
+}
+
+form label {
+   display: block;
+   width: fit-content;
+   font-size: 1em;
+   font-weight: bold;
+   padding: 3px 7px;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   border-radius: 5px;
+}
+
+input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+   width: 100%;
+   padding: 12px 20px;
+   font-size: 1em;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+input[type=submit] {
+   width: 100%;
+   background-color: #4CAF50;
+   font-size: 1em;
+   color: white;
+   padding: 10px 20px;
+   margin: 5px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #45a049;
+}
+
+input[type=reset] {
+   width: 100%;
+   background-color: #eb9903;
+   font-size: 1em;
+   color: white;
+   padding: 10px 20px;
+   margin: 5px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=reset]:hover {
+   background-color: #c27013;
+}
+
+input[type=button], button {
+   width: 100%;
+   background-color: #007bff;
+   font-size: 1em;
+   color: white;
+   padding: 10px 20px;
+   margin: 5px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=button]:hover, button:hover {
+   background-color: #0056b3;
+}
+
+fieldset {
+   border: 0.5px dotted #372991;
+}
+
+fieldset > legend {
+   font-size: 0.8em;
+   font-weight: 100;
+   background-color: rgba(55, 41, 145, 0.2);
+   padding: 3px 7px;
+   border-radius: 5px;
+}
+
+input[type=radio] + label, input[type=checkbox] + label {
+   display: inline-block;
+   font-size: 1em;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+   body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #f1f1f1; /* Cor de fundo do corpo da página */
+   }
+
+   .wrapper2 {
+       max-width: 600px;
+       margin: 50px auto;
+       background: #f9f9f9;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+   .header {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-bottom: 20px;
+   }
+
+   .header h2 {
+       margin: 0;
+   }
+
+   .header .logo {
+       max-width: 100px;
+   }
+
+   .logo img {
+       max-width: 100px;
+       height: auto;
+   }
+
+   .btn-group {
+       display: flex;
+   }
+
+   .btn-group button {
+       margin-left: 10px;
+       padding: 10px 15px;
+       border: none;
+       background-color: #007bff;
+       color: white;
+       cursor: pointer;
+       border-radius: 5px;
+       transition: background-color 0.3s ease;
+   }
+
+   .btn-group button:hover {
+       background-color: #0056b3;
+   }
+
+   footer{
+      margin-top: 20px;
+      padding: 10px 0;
+      text-align: center;
+      background-color: #fff;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #ddd;
+  }
